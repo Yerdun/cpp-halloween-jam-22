@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/actors/player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/environments/wall.tscn" type="PackedScene" id=2]
+
+[node name="TempWorld" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 39, 45 )
+
+[node name="Wall" parent="." instance=ExtResource( 2 )]
+position = Vector2( 577, 508 )
+
+[node name="Wall2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 595, 44 )
